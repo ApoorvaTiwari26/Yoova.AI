@@ -1,0 +1,38 @@
+.settings-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    gap: 30px;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .setting-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  
+  .setting-item label {
+    font-weight: 500;
+    font-size: 16px;
+  }
+  
+  .setting-item select {
+    padding: 8px;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  
+  .font-preview {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+  }
+  
